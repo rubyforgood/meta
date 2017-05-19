@@ -16,7 +16,7 @@ You need to add a file called `script/creds.py` before proceeding.  You need to 
 a Github personal API token by the web site.  Then emebed it in the file like this:
 
 ```
-GITHUB_TOKEN=4598734509837459283745
+GITHUB_TOKEN = "4598734509837459283745"
 ```
 
 This file will be ignored by Git so you can't check it in.  Then run the following script:
