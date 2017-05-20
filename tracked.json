@@ -1,45 +1,101 @@
 {"projects": [
     {
-        "Double H Ranch": "https://github.com/rubyforgood/doublehranch"
+        "Double H Ranch": {
+            "repo": "https://github.com/rubyforgood/doublehranch",
+            "description": "Double H Ranch is a nonprofit that provides specialized programs and year-round support for children and their families dealing with life-threatening illnesses. All programs are free of charge and capture the magic of the Adirondacks of upstate New York, and is one of the most uplifting places you could every visit.  Double H has limited engagement with former volunteers, campers, and summer staff, so would like to a system through which it can engage and build community with people who are no longer at camp. We'll build a greenfield product for them that will interface with a few of their existing systems (Facebook, Google calendar, Raiser's Edge), link to others, and provide a centralized location with some special features to allow everyone to interact.",
+            "slack": "#double_h_ranch"
+        }
     },
     {
-        "Diaper Bank": "https://github.com/rubyforgood/diaper"
+        "Diaper Bank": {
+            "repo": "https://github.com/rubyforgood/diaper",
+            "description": "Each month over 350,000 children as helped by diaper banks, forgoing their parents having to make the difficult choice of choosing between feeding their children and putting diapers on them. There are diaper banks in 44 states and they provide about 4 million diapers a month to needy families. We're going to be taking what we built last year for the Portland Diaper Bank, adding some new features and turning it into a platform that all diaper banks can use!",
+            "slack": "#diaper_saas"
+        }
     },
     {
-        "Playtime Project": "https://github.com/rubyforgood/playtime"
+        "Elizabeth House Pantry Scheduler": {
+            "repo": "https://github.com/rubyforgood/pantry_scheduler",
+            "description": "It is a depressing statistic that about 20 percent of children and 10 percent of seniors live in poverty and rely on food pantries. The amazing people at the Elizabeth House are helping low income residents in Laurel by operating as both a soup kitchen and as food pantry. We'll be helping the Elizabeth House by building them tools to assist with their scheduling and volunteers.",
+            "slack": "#pantry"
+        }
     },
     {
-        "Elizabeth House Pantry Scheduler": "https://github.com/rubyforgood/pantry_scheduler"
+        "Ecosystem Climate Regulation Services Calculator": {
+            "repo": "https://github.com/rubyforgood/ghgvc",
+            "description": "In the current political climate where the party in power seems to be doing everything the can to hide EPA, climate, and other environmental data is it pretty amazing that there are researchers out there still publishing this important information. We'll be updating, upgrading, and adding features to an application they are using to share this data with the world.",
+            "slack": "#climate"
+        }
     },
     {
-        "Ecosystem Climate Regulation Services Calculator": "https://github.com/rubyforgood/ghgvc"
+        "Loudon Codes": {
+            "repo": "https://github.com/rubyforgood/loudoun_codes",
+            "description": "If we want to get more people interested in computer science one of the best ways to achieve that is by exposing them to it while they are kids. This is what the great people at the Loudoun Computer Science Initative are doing; engaging their communities and kids with computer science. We'll be helping them build an open source version of a closed source tool for high school (and other) coding challenges.",
+            "slack": "#lcsi"
+        }
     },
     {
-        "Loudon Codes": "https://github.com/rubyforgood/loudoun_codes"
+        "Here 4 Reentry's Word of Mouth": {
+            "repo": "https://github.com/rubyforgood/reentry",
+            "description": "Here for Reentry is focused around creating a toolset for previously incarcerated 'returning citizens' to connect socially with one another, learn important information about quality social services, and organize politically to advocate for issues relevant to their lives and their communities. These are our neighbors, our friends and our family.",
+            "slack": "#reentry"
+        }
     },
     {
-        "Here 4 Reentry's Word of Mouth": "https://github.com/rubyforgood/reentry"
+        "Charter for Compassion": {
+            "repo": "https://github.com/rubyforgood/CharterForCompassion",
+            "description": "With the ever increasing amount of hate an intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.",
+            "slack": "#charter"
+        }
     },
     {
-        "Charter for Compassion": "https://github.com/rubyforgood/CharterForCompassion"
+        "Save the Animals API": {
+            "repo": "https://github.com/rubyforgood/save_the_animals_api",
+            "description": "See Offline Pandas",
+            "slack": "#save_the_animals"
+        }
     },
     {
-        "Save the Animals API": "https://github.com/rubyforgood/save_the_animals_api"
+        "Operation Code Front End": {
+            "repo": "https://github.com/rubyforgood/operationcode_frontend",
+            "description": "Operation Code helps the military community learn software development, enter the tech industry, and code the future. Through mentoring, scholarships, and the open source community we get past and present Army, Navy, Marines, Air Force, and Coast Guard service members, veterans and military spouses into programming and out into the work force.",
+            "slack": "#operation_code"
+        }
     },
     {
-        "Operation Code Front End": "https://github.com/rubyforgood/operationcode_frontend"
+        "Operation Code Back End": {
+            "repo": "https://github.com/rubyforgood/operationcode_backend",
+            "description": "See Operation Code Front End",
+            "slack": "#operation_code"
+        }
     },
     {
-        "Operation Code Back End": "https://github.com/rubyforgood/operationcode_backend"
+        "Offline Pandas": {
+            "repo": "https://github.com/rubyforgood/offline_pandas",
+            "description": "Helping scientists conserve red pandas, loggerhead shrikes, elephants, and other animals!",
+            "slack": "#save_the_animals"
+        }
     },
     {
-        "Offline Pandas": "https://github.com/rubyforgood/offline_pandas"
+        "Justice for Juniors": {
+            "repo": "https://github.com/rubyforgood/justice",
+            "description": "Justice for Juniors, sponsored by the Luther Rice Chapel, is dedicated to addressing juvenile recidivism in the District of Columbia by offering mentoring and tutorial visitation services to juveniles returning to the community in subjects such as ethics, education, and faith. We hope to lay a foundation for disadvantaged youth to gain the skills, hope, and sense of community needed to live a life without crime. We partner with local universities and other volunteer groups to visit with incarcerated youth at various stages of their unfortunate positions in the system from YSC (the youth jail), to those living in one of the city's 10 shelter-homes (unlocked facilities where the children are allowed to leave to attend school, other activities and home visits on the weekends) to those in diversion programs (avoiding being charged for a crime by satisfying various things of which Justice for Juniors is part). The program also involves an advocacy component, hosting a Juvenile Justice Forum annually where representatives from various organizations, such as the US DOJ, prosecutors, police, NAACP representatives, child rights advocates, are invited to discuss the year's topic. There are on average 1,600 juveniles in the DC justice system at any given time. Over the past 6 years Justice for Juniors has worked diligently to reduce that number.",
+            "slack": "#justiceforjuniors"
+        }
     },
     {
-        "Justice for Juniors": "https://github.com/rubyforgood/justice"
+        "Homeless Children's Playtime Project": {
+            "repo": "https://github.com/rubyforgood/playtime",
+            "description": "Almost half of school-age homeless children have emotional problems like anxiety and depression … They also experience four times the rate of developmental delays and double the learning disabilities, and they are twice as likely to be suspended from school or repeat a grade as other poor children. Research has shown that the simple act of playing makes a remarkable difference in children’s cognitive, physical, and emotional well-being both at home and at school. We'll be helping the playtime project build tools to help facilitate gifts of toys.",
+            "slack": "#playtime"
+        }
     },
     {
-        "Ruby For Good Website": "https://github.com/rubyforgood/rubyforgood.org"
+        "Stop Child Abuse Now of Northern VA": {
+            "repo": "https://github.com/rubyforgood/scan-donation",
+            "description": "Stop Child Abuse Now of Northern Virginia (a.k.a SCAN) is a non-profit organization whose mission is to promote the well-being of children, improve parent-child relations and prevent child abuse and negelect.",
+            "slack": "#scan"
+        }
     }
 ]
 }

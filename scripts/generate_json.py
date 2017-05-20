@@ -21,7 +21,9 @@ schema = requests.get("https://raw.githubusercontent.com/DCgov/civic.json/master
 for project in tracked:
     for key, value in project.items():
         name = key
-        link = value
+        link = value['repo']
+        long_description = value['description']
+        slack = value['slack']
 
     # Get the basic Github data
     url = link.replace('github.com','api.github.com/repos')
@@ -51,7 +53,9 @@ for project in tracked:
             'url': r['owner']['html_url'],
             'type': r['owner']['type']
         },
-        'license': r['license']
+        'license': r['license'],
+        'long_description': long_description,
+        'slack': slack
     }
 
     # Add in contributor information from Github
