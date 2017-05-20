@@ -1,9 +1,9 @@
 {"projects": [
     {
-        "Double H Ranch": {
-            "repo": "https://github.com/rubyforgood/doublehranch",
-            "description": "Double H Ranch is a nonprofit that provides specialized programs and year-round support for children and their families dealing with life-threatening illnesses. All programs are free of charge and capture the magic of the Adirondacks of upstate New York, and is one of the most uplifting places you could every visit.  Double H has limited engagement with former volunteers, campers, and summer staff, so would like to a system through which it can engage and build community with people who are no longer at camp. We'll build a greenfield product for them that will interface with a few of their existing systems (Facebook, Google calendar, Raiser's Edge), link to others, and provide a centralized location with some special features to allow everyone to interact.",
-            "slack": "#double_h_ranch"
+        "Charter for Compassion": {
+            "repo": "https://github.com/rubyforgood/CharterForCompassion",
+            "description": "With the ever increasing amount of hate an intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.",
+            "slack": "#charter"
         }
     },
     {
@@ -14,10 +14,10 @@
         }
     },
     {
-        "Elizabeth House Pantry Scheduler": {
-            "repo": "https://github.com/rubyforgood/pantry_scheduler",
-            "description": "It is a depressing statistic that about 20 percent of children and 10 percent of seniors live in poverty and rely on food pantries. The amazing people at the Elizabeth House are helping low income residents in Laurel by operating as both a soup kitchen and as food pantry. We'll be helping the Elizabeth House by building them tools to assist with their scheduling and volunteers.",
-            "slack": "#pantry"
+        "Double H Ranch": {
+            "repo": "https://github.com/rubyforgood/doublehranch",
+            "description": "Double H Ranch is a nonprofit that provides specialized programs and year-round support for children and their families dealing with life-threatening illnesses. All programs are free of charge, and capture the magic of the Adirondacks of upstate New York. It is one of the most uplifting places you could ever visit.  Former counselors, staff, volunteers, and campers currently have limited options for engagement with Double H, so we’ll build 'Orchard,' a system through which folks can engage and build community with and amongst people who are no longer at camp. Orchard will import a camp-compiled dataset, send an email (inviting people to create an account, adjust privacy settings, verify their info), and provides a searchable directory and taggable/commentable photo gallery. Camp admins will have the ability to author and schedule automated emails to users. Later, we’d like Orchard to more directly interface with a few of their existing systems (Facebook, Google calendar, Raiser's Edge, MailChimp, custom systems, etc).",
+            "slack": "#double_h_ranch"
         }
     },
     {
@@ -28,10 +28,10 @@
         }
     },
     {
-        "Loudon Codes": {
-            "repo": "https://github.com/rubyforgood/loudoun_codes",
-            "description": "If we want to get more people interested in computer science one of the best ways to achieve that is by exposing them to it while they are kids. This is what the great people at the Loudoun Computer Science Initative are doing; engaging their communities and kids with computer science. We'll be helping them build an open source version of a closed source tool for high school (and other) coding challenges.",
-            "slack": "#lcsi"
+        "Elizabeth House Pantry Scheduler": {
+            "repo": "https://github.com/rubyforgood/pantry_scheduler",
+            "description": "It is a depressing statistic that about 20 percent of children and 10 percent of seniors live in poverty and rely on food pantries. The amazing people at the Elizabeth House are helping low income residents in Laurel by operating as both a soup kitchen and as food pantry. We'll be helping the Elizabeth House by building them tools to assist with their scheduling and volunteers.",
+            "slack": "#pantry"
         }
     },
     {
@@ -42,17 +42,24 @@
         }
     },
     {
-        "Charter for Compassion": {
-            "repo": "https://github.com/rubyforgood/CharterForCompassion",
-            "description": "With the ever increasing amount of hate an intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.",
-            "slack": "#charter"
+        "Homeless Children's Playtime Project": {
+            "repo": "https://github.com/rubyforgood/playtime",
+            "description": "Almost half of school-age homeless children have emotional problems like anxiety and depression … They also experience four times the rate of developmental delays and double the learning disabilities, and they are twice as likely to be suspended from school or repeat a grade as other poor children. Research has shown that the simple act of playing makes a remarkable difference in children’s cognitive, physical, and emotional well-being both at home and at school. We'll be helping the playtime project build tools to help facilitate gifts of toys.",
+            "slack": "#playtime"
         }
     },
     {
-        "Save the Animals API": {
-            "repo": "https://github.com/rubyforgood/save_the_animals_api",
-            "description": "See Offline Pandas",
-            "slack": "#save_the_animals"
+        "Justice for Juniors": {
+            "repo": "https://github.com/rubyforgood/justice",
+            "description": "Justice for Juniors, sponsored by the Luther Rice Chapel, is dedicated to addressing juvenile recidivism in the District of Columbia by offering mentoring and tutorial visitation services to juveniles returning to the community in subjects such as ethics, education, and faith. We hope to lay a foundation for disadvantaged youth to gain the skills, hope, and sense of community needed to live a life without crime. We partner with local universities and other volunteer groups to visit with incarcerated youth at various stages of their unfortunate positions in the system from YSC (the youth jail), to those living in one of the city's 10 shelter-homes (unlocked facilities where the children are allowed to leave to attend school, other activities and home visits on the weekends) to those in diversion programs (avoiding being charged for a crime by satisfying various things of which Justice for Juniors is part). The program also involves an advocacy component, hosting a Juvenile Justice Forum annually where representatives from various organizations, such as the US DOJ, prosecutors, police, NAACP representatives, child rights advocates, are invited to discuss the year's topic. There are on average 1,600 juveniles in the DC justice system at any given time. Over the past 6 years Justice for Juniors has worked diligently to reduce that number.",
+            "slack": "#justiceforjuniors"
+        }
+    },
+    {
+        "Loudon Codes": {
+            "repo": "https://github.com/rubyforgood/loudoun_codes",
+            "description": "If we want to get more people interested in computer science one of the best ways to achieve that is by exposing them to it while they are kids. This is what the great people at the Loudoun Computer Science Initative are doing; engaging their communities and kids with computer science. We'll be helping them build an open source version of a closed source tool for high school (and other) coding challenges.",
+            "slack": "#lcsi"
         }
     },
     {
@@ -77,17 +84,10 @@
         }
     },
     {
-        "Justice for Juniors": {
-            "repo": "https://github.com/rubyforgood/justice",
-            "description": "Justice for Juniors, sponsored by the Luther Rice Chapel, is dedicated to addressing juvenile recidivism in the District of Columbia by offering mentoring and tutorial visitation services to juveniles returning to the community in subjects such as ethics, education, and faith. We hope to lay a foundation for disadvantaged youth to gain the skills, hope, and sense of community needed to live a life without crime. We partner with local universities and other volunteer groups to visit with incarcerated youth at various stages of their unfortunate positions in the system from YSC (the youth jail), to those living in one of the city's 10 shelter-homes (unlocked facilities where the children are allowed to leave to attend school, other activities and home visits on the weekends) to those in diversion programs (avoiding being charged for a crime by satisfying various things of which Justice for Juniors is part). The program also involves an advocacy component, hosting a Juvenile Justice Forum annually where representatives from various organizations, such as the US DOJ, prosecutors, police, NAACP representatives, child rights advocates, are invited to discuss the year's topic. There are on average 1,600 juveniles in the DC justice system at any given time. Over the past 6 years Justice for Juniors has worked diligently to reduce that number.",
-            "slack": "#justiceforjuniors"
-        }
-    },
-    {
-        "Homeless Children's Playtime Project": {
-            "repo": "https://github.com/rubyforgood/playtime",
-            "description": "Almost half of school-age homeless children have emotional problems like anxiety and depression … They also experience four times the rate of developmental delays and double the learning disabilities, and they are twice as likely to be suspended from school or repeat a grade as other poor children. Research has shown that the simple act of playing makes a remarkable difference in children’s cognitive, physical, and emotional well-being both at home and at school. We'll be helping the playtime project build tools to help facilitate gifts of toys.",
-            "slack": "#playtime"
+        "Save the Animals API": {
+            "repo": "https://github.com/rubyforgood/save_the_animals_api",
+            "description": "See Offline Pandas",
+            "slack": "#save_the_animals"
         }
     },
     {
