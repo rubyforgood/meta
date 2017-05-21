@@ -2,7 +2,7 @@
     {
         "Charter for Compassion": {
             "repo": "https://github.com/rubyforgood/CharterForCompassion",
-            "description": "With the ever increasing amount of hate an intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.",
+            "description": "With the ever increasing amount of hate and intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.",
             "slack": "#charter"
         }
     },
@@ -30,7 +30,7 @@
     {
         "Elizabeth House Pantry Scheduler": {
             "repo": "https://github.com/rubyforgood/pantry_scheduler",
-            "description": "It is a depressing statistic that about 20 percent of children and 10 percent of seniors live in poverty and rely on food pantries. The amazing people at the Elizabeth House are helping low income residents in Laurel by operating as both a soup kitchen and as food pantry. We'll be helping the Elizabeth House by building them tools to assist with their scheduling and volunteers.",
+            "description": "Elizabeth House is an all volunteer run Food Pantry and Soup Kitchen in Laurel, MD.  We have over 300 volunteers each year and serve approximately 45 people for dinner each evening, and help around 15 families per week with groceries.  Our app is to help the volunteers create appointments, check clients in and create aggregated data for government reporting.",
             "slack": "#pantry"
         }
     },
@@ -56,6 +56,13 @@
         }
     },
     {
+        "Loggerhead Shrike": {
+            "repo": "https://github.com/rubyforgood/loggerhead_shrike",
+            "description": "The Loggerhead Shrike Working Group seeks to develop, support and implement coordinated, multi-jurisdictional research and conservation efforts for Loggerhead Shrike and their habitat through collaborative initiatives guided by the Action Plan and recommendations of the Working Group's membership. Part of our project was to build the LOHS WG website using their CMS Webflow to help them achieve their goals.",
+            "slack": "#save_the_animals"
+        }
+    },
+    {
         "Loudon Codes": {
             "repo": "https://github.com/rubyforgood/loudoun_codes",
             "description": "If we want to get more people interested in computer science one of the best ways to achieve that is by exposing them to it while they are kids. This is what the great people at the Loudoun Computer Science Initative are doing; engaging their communities and kids with computer science. We'll be helping them build an open source version of a closed source tool for high school (and other) coding challenges.",
@@ -77,24 +84,24 @@
         }
     },
     {
-        "Offline Pandas": {
+        "Save the Animals Front End": {
             "repo": "https://github.com/rubyforgood/offline_pandas",
-            "description": "Helping scientists conserve red pandas, loggerhead shrikes, elephants, and other animals!",
+            "description": "Helping scientists conserve red pandas, elephants, and other animals!",
             "slack": "#save_the_animals"
         }
     },
     {
-        "Save the Animals API": {
+        "Save the Animals Back End": {
             "repo": "https://github.com/rubyforgood/save_the_animals_api",
-            "description": "See Offline Pandas",
+            "description": "See Save the Animals Front End",
             "slack": "#save_the_animals"
         }
     },
     {
-        "Stop Child Abuse Now of Northern VA": {
+        "SCAN - Stop Child Abuse Now of Northern VA": {
             "repo": "https://github.com/rubyforgood/scan-donation",
-            "description": "Stop Child Abuse Now of Northern Virginia (a.k.a SCAN) is a non-profit organization whose mission is to promote the well-being of children, improve parent-child relations and prevent child abuse and negelect.",
-            "slack": "#scan"
+            "description": "Stop Child Abuse Now (SCAN) of Northern Virginia is a non-profit organization whose mission is to promote the well-being of children, improve parent-child relations and prevent child abuse and neglect by: (1) Educating the community about the scope, nature and consequences of child abuse and neglect and the importance of positive, nurturing parenting; (2) Providing direct parent education; & (3) Advocating for children in the community, the legislature and the courts. We were tasked with helping them sync data from Square to Salesforce. This included turning Customers into Contacts, Transactions into Opportunities, and setting a cron job to run the script at midnight everyday.",
+            "slack": "#save_the_animals"
         }
     }
 ]
