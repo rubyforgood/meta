@@ -51,8 +51,8 @@
             0, 
             0, 
             0, 
-            0, 
-            63
+            63, 
+            38
         ], 
         "ci": {
             "codeclimate": false, 
@@ -64,27 +64,27 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/75565?v=3", 
-                "contributions": 21, 
+                "contributions": 30, 
                 "link": "https://github.com/adambray", 
                 "name": "adambray"
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/28410?v=3", 
-                "contributions": 15, 
+                "contributions": 16, 
                 "link": "https://github.com/keithrbennett", 
                 "name": "keithrbennett"
             }, 
             {
-                "avatar_url": "https://avatars0.githubusercontent.com/u/343188?v=3", 
-                "contributions": 13, 
-                "link": "https://github.com/rossfuhrman", 
-                "name": "rossfuhrman"
-            }, 
-            {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/2653193?v=3", 
-                "contributions": 12, 
+                "contributions": 16, 
                 "link": "https://github.com/esabelhaus", 
                 "name": "esabelhaus"
+            }, 
+            {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/343188?v=3", 
+                "contributions": 14, 
+                "link": "https://github.com/rossfuhrman", 
+                "name": "rossfuhrman"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/5847277?v=3", 
@@ -94,7 +94,7 @@
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/13142719?v=3", 
-                "contributions": 8, 
+                "contributions": 9, 
                 "link": "https://github.com/marz0", 
                 "name": "marz0"
             }, 
@@ -117,19 +117,19 @@
         "languages": [
             [
                 "JavaScript", 
-                337056
+                323083
             ], 
             [
                 "Ruby", 
-                91710
+                93406
             ], 
             [
                 "CSS", 
-                25687
+                26352
             ], 
             [
                 "HTML", 
-                16683
+                17069
             ]
         ], 
         "license": {
@@ -142,18 +142,18 @@
         "long_description": "With the ever increasing amount of hate and intolerence in the world it is wonderful that there are organizations like charter for compassion. Their mission is to spread compassion so that people are treated the way they want to be treated. We'll be building them tools that will enable them to help catalog and spread the word of the amazing projects that they work on.", 
         "main_language": "JavaScript", 
         "name": "Charter for Compassion", 
-        "open_issues": 1, 
+        "open_issues": 0, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T15:56:06Z", 
+        "pushed_at": "2017-05-28T17:16:17Z", 
         "short_name": "CharterForCompassion", 
-        "size": 297, 
+        "size": 424, 
         "slack": "#charter", 
-        "updated_at": "2017-05-21T15:40:27Z", 
+        "updated_at": "2017-05-23T23:57:09Z", 
         "watchers": 0
     }, 
     {
@@ -204,12 +204,12 @@
             0, 
             0, 
             0, 
-            0, 
-            0, 
-            7, 
-            11, 
-            2, 
-            83
+            5, 
+            3, 
+            10, 
+            4, 
+            147, 
+            65
         ], 
         "ci": {
             "codeclimate": false, 
@@ -220,26 +220,26 @@
         "civic_json": null, 
         "contributors": [
             {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/13002?v=3", 
-                "contributions": 82, 
-                "link": "https://github.com/abachman", 
-                "name": "abachman"
-            }, 
-            {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/502363?v=3", 
-                "contributions": 74, 
+                "contributions": 96, 
                 "link": "https://github.com/armahillo", 
                 "name": "armahillo"
             }, 
             {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/13002?v=3", 
+                "contributions": 85, 
+                "link": "https://github.com/abachman", 
+                "name": "abachman"
+            }, 
+            {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/16866776?v=3", 
-                "contributions": 23, 
+                "contributions": 27, 
                 "link": "https://github.com/danquill", 
                 "name": "danquill"
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/1625840?v=3", 
-                "contributions": 16, 
+                "contributions": 22, 
                 "link": "https://github.com/cattywampus", 
                 "name": "cattywampus"
             }, 
@@ -270,12 +270,19 @@
         "help_wanted": [
             {
                 "assignee": null, 
-                "body": "", 
+                "body": "The color scheme in the navigation bar looks awesome but the contrast ratio between the foreground and background colors are very low. The recommended practice is:\r\n\r\n> The minimum ratios for contrast are:\r\n> A contrast ratio of 3:1 for text with a size of 18 points (14 points if bolded) or larger, or\r\n> A contrast ratio of 4.5:1 for text with a size less than 18 points (or less than 14 points if bolded).\r\n> In some situations it may be impossible to determine the actual font size. In these cases the 4.5:1 ratio should be used to comply with Section 508.\r\n\r\nFor links in our nav bar: \r\n* white text against the baby blue background has a contrast ratio of 2.86:1 (http://webaim.org/resources/contrastchecker/?fcolor=ffffff&bcolor=0ba6cc)\r\n* blue text for disabled/selected links against the blue background has a contrast ratio of 1.59:1 (http://webaim.org/resources/contrastchecker/?fcolor=3ed1f5&bcolor=0ba6cc)", 
                 "comments": 0, 
-                "created_at": "2017-05-19T15:58:57Z", 
-                "issue": "Lock gems at known good versions to prevent future breakage", 
-                "issue_url": "https://github.com/rubyforgood/diaper/issues/44", 
+                "created_at": "2017-05-29T18:34:09Z", 
+                "issue": "508 compliant color contrast in navbar", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/96", 
                 "labels": [
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
                     {
                         "color": "128A0C", 
                         "default": true, 
@@ -286,7 +293,333 @@
                 ], 
                 "project": "Diaper Bank", 
                 "project_url": "https://github.com/rubyforgood/diaper", 
-                "updated_at": "2017-05-19T23:25:53Z"
+                "updated_at": "2017-05-29T18:36:37Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Currently, we don't enforce any dimensions on the uploaded logos. Consequently, if a large strangely shaped logo is uploaded it will be outside the desired area on the pdf printing. The default image is  763 x 188 pixels and we should enforce something like that to ensure consistency.\r\n\r\nThis is a pretty easy fix in paperclip if someone wants to tackle it.\r\n\r\nHere is an example of what I'm talking about.\r\n\r\n![example](http://pompeii.gmu.edu/uVQic.png)", 
+                "comments": 0, 
+                "created_at": "2017-05-27T23:58:42Z", 
+                "issue": "Enforce Organization Logo Dimensions", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/93", 
+                "labels": [
+                    {
+                        "color": "fbca04", 
+                        "default": false, 
+                        "id": 603894936, 
+                        "name": "BeginnerFriendly!", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/BeginnerFriendly!"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-27T23:58:52Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "The `DiaperDriveParticipant` model was created in #89 but does not have any management features (other than via `rails c`-fu)\r\n\r\nBasic CRUD features should be added (maybe not \"destroy\"?) similar to the other community partner models. A menu item under \"Community\" would be a good place to put a link for it. \r\n\r\nModel has validations already -- pretty much just the UI and Controllers needs to be created.", 
+                "comments": 0, 
+                "created_at": "2017-05-27T21:30:53Z", 
+                "issue": "DiaperDriveParticipant needs CRUD for management", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/91", 
+                "labels": [
+                    {
+                        "color": "fbca04", 
+                        "default": false, 
+                        "id": 603894936, 
+                        "name": "BeginnerFriendly!", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/BeginnerFriendly!"
+                    }, 
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-27T21:31:20Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Mentioned in #89 -- \r\n\r\n`/app/models/donation.rb` has a `SOURCES` array of strings that has the different options that can be used for the `source` field. Up til now this was mostly limited to the donations views.\r\n\r\nWith the changes in #89 though, the string literals are being referenced elsewhere. Changing the wording of the strings in SOURCES will thus have \"OMGWTFBBQ\" breakage. It's unlikely the types will change so this can probably be fixed by making SOURCES into a hash and referencing the hash-keys instead of the strings directly.  (ie. `Donation::SOURCES[:dropoff_location]` instead of `\"Donation Pickup Location\"`)", 
+                "comments": 0, 
+                "created_at": "2017-05-27T21:26:53Z", 
+                "issue": "Donation::SOURCES needs a refactor", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/90", 
+                "labels": [
+                    {
+                        "color": "ee0701", 
+                        "default": true, 
+                        "id": 589259358, 
+                        "name": "bug", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/bug"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-27T21:31:27Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Probably starting with something like this:\r\nhttp://www.product-open-data.com/product-brand-list-4I3EU6.html\r\n\r\nCreate a seedfile (YAML?) of as many different products possible that can be loaded in as `BarcodeItem`s, to minimize the amount of user-entry required. Unclear how many products would need to be entered, but the more seeds we have the less manual entry users have to do.", 
+                "comments": 0, 
+                "created_at": "2017-05-24T13:58:02Z", 
+                "issue": "Create seed file of EAN13 codes for known products", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/88", 
+                "labels": [
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-24T13:58:02Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Currently the `Donation` and `Distribution` models have a `created_at` date which is used to denote the date the object was received or issued. But in some cases the user needs to be able to file one of these events for a past date. For example, if a diaper drive happened in a past month, the staff may not have gotten to issuing it yet. So when the record is created in the system the user needs to be able to specify the past date they want the event to occur on.\r\n\r\nThis needs to be reflected in any reports used to aggregate donations or distributions by date. ", 
+                "comments": 1, 
+                "created_at": "2017-05-21T02:24:24Z", 
+                "issue": "Receipts and distributions needs to support being filed on past date", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/78", 
+                "labels": [
+                    {
+                        "color": "d4c5f9", 
+                        "default": false, 
+                        "id": 609633978, 
+                        "name": "Distributions", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/Distributions"
+                    }, 
+                    {
+                        "color": "e99695", 
+                        "default": false, 
+                        "id": 609622667, 
+                        "name": "Donations", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/Donations"
+                    }, 
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-22T19:45:42Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Users should be able to select their timezone so the timestamps on their data and their date range filters more accurately reflect the region they live in. ", 
+                "comments": 0, 
+                "created_at": "2017-05-20T23:34:39Z", 
+                "issue": "Need to handle users in different timezones", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/72", 
+                "labels": [
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-22T19:45:52Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "This functionality existed in the previous app ( https://github.com/rubyforgood/pdx_diaper, see files: https://github.com/rubyforgood/pdx_diaper/blob/master/app/admin/barcode_item.rb and https://github.com/rubyforgood/pdx_diaper/blob/master/app/admin/donation.rb ) but needs to be re-created with the new UI / workflow. ", 
+                "comments": 0, 
+                "created_at": "2017-05-12T20:08:14Z", 
+                "issue": "When a user scans a barcode, if it doesn't exist in the system, it prompts the user to create a new entry", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/20", 
+                "labels": [
+                    {
+                        "color": "e99695", 
+                        "default": false, 
+                        "id": 609622667, 
+                        "name": "Donations", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/Donations"
+                    }, 
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-22T19:32:20Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "A superuser / administrator can perform CRUD tasks on tenants (spinning up new instances, managing existing ones, etc)", 
+                "comments": 4, 
+                "created_at": "2017-05-12T17:07:24Z", 
+                "issue": "An Administrator can create or manage tenants", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/15", 
+                "labels": [
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-29T18:44:21Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "When a user is working on a distribution `Ticket`, they should be able to add `Items` to the `Ticket` by scanning a barcode instead of choosing from a drop-down list.", 
+                "comments": 0, 
+                "created_at": "2017-05-12T16:30:24Z", 
+                "issue": "User can scan a barcode to add items while creating a distribution ticket", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/6", 
+                "labels": [
+                    {
+                        "color": "d4c5f9", 
+                        "default": false, 
+                        "id": 609633978, 
+                        "name": "Distributions", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/Distributions"
+                    }, 
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "fef2c0", 
+                        "default": false, 
+                        "id": 603861109, 
+                        "name": "from-2016", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/from-2016"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-22T19:05:40Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "A user should be able to add loose inventory via weighing the product on a scale. Here are the notes from the previous year:\r\n\r\n1. You click on the scale tab\r\n2. You click on the diaper type (ie- disposable inserts), size (NB, 1, 2, 3, etc) (*)\r\n3. You dump the diapers into a container on the scale\r\n4. It displays how many diapers are in the container (ie - 82 diapers)\r\n5. You then click \"Add to Inventory\" and it adds them to the inventory (ie- 82 disposable inserts to PDX Diaper Bank (Office))\r\n\r\n[* Rachel also mentioned \"count\", though I'm not clear on what that's referring to]\r\n\r\nRelevant links (from @seanmarcia )\r\n\r\n* https://developer.chrome.com/apps/hid\r\n* https://keetrax.com/blog/2015/01/interacting-usb-hid-devices-web-apps/\r\n", 
+                "comments": 0, 
+                "created_at": "2017-05-12T16:07:12Z", 
+                "issue": "User can track loose diapers for intake using a digital scale", 
+                "issue_url": "https://github.com/rubyforgood/diaper/issues/3", 
+                "labels": [
+                    {
+                        "color": "e99695", 
+                        "default": false, 
+                        "id": 609622667, 
+                        "name": "Donations", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/Donations"
+                    }, 
+                    {
+                        "color": "84b6eb", 
+                        "default": true, 
+                        "id": 589259360, 
+                        "name": "enhancement", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/enhancement"
+                    }, 
+                    {
+                        "color": "fef2c0", 
+                        "default": false, 
+                        "id": 603861109, 
+                        "name": "from-2016", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/from-2016"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 589259361, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/diaper/labels/help%20wanted"
+                    }
+                ], 
+                "project": "Diaper Bank", 
+                "project_url": "https://github.com/rubyforgood/diaper", 
+                "updated_at": "2017-05-22T19:07:15Z"
             }
         ], 
         "homepage": null, 
@@ -295,19 +628,19 @@
         "languages": [
             [
                 "Ruby", 
-                208921
+                224766
             ], 
             [
                 "HTML", 
-                49634
+                49172
             ], 
             [
                 "CSS", 
-                24534
+                25016
             ], 
             [
                 "CoffeeScript", 
-                5934
+                6911
             ], 
             [
                 "JavaScript", 
@@ -324,19 +657,19 @@
         "long_description": "Each month over 350,000 children as helped by diaper banks, forgoing their parents having to make the difficult choice of choosing between feeding their children and putting diapers on them. There are diaper banks in 44 states and they provide about 4 million diapers a month to needy families. We're going to be taking what we built last year for the Portland Diaper Bank, adding some new features and turning it into a platform that all diaper banks can use!", 
         "main_language": "Ruby", 
         "name": "Diaper Bank", 
-        "open_issues": 21, 
+        "open_issues": 17, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T15:39:36Z", 
+        "pushed_at": "2017-05-29T18:35:59Z", 
         "short_name": "diaper", 
-        "size": 417, 
+        "size": 455, 
         "slack": "#diaper_saas", 
-        "updated_at": "2017-05-15T22:54:41Z", 
-        "watchers": 2
+        "updated_at": "2017-05-27T22:31:14Z", 
+        "watchers": 4
     }, 
     {
         "activity": [
@@ -390,8 +723,8 @@
             0, 
             0, 
             0, 
-            0, 
-            107
+            261, 
+            73
         ], 
         "ci": {
             "codeclimate": false, 
@@ -403,9 +736,15 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/3771644?v=3", 
-                "contributions": 68, 
+                "contributions": 70, 
                 "link": "https://github.com/michaelbyrd", 
                 "name": "michaelbyrd"
+            }, 
+            {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/18606890?v=3", 
+                "contributions": 40, 
+                "link": "https://github.com/Pratt0923", 
+                "name": "Pratt0923"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/18296884?v=3", 
@@ -421,9 +760,15 @@
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/8590508?v=3", 
-                "contributions": 28, 
+                "contributions": 31, 
                 "link": "https://github.com/mirandawang", 
                 "name": "mirandawang"
+            }, 
+            {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/6842753?v=3", 
+                "contributions": 29, 
+                "link": "https://github.com/jjlangholtz", 
+                "name": "jjlangholtz"
             }, 
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/7607813?v=3", 
@@ -432,34 +777,22 @@
                 "name": "maebeale"
             }, 
             {
-                "avatar_url": "https://avatars3.githubusercontent.com/u/6842753?v=3", 
-                "contributions": 25, 
-                "link": "https://github.com/jjlangholtz", 
-                "name": "jjlangholtz"
-            }, 
-            {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/18606890?v=3", 
-                "contributions": 24, 
-                "link": "https://github.com/Pratt0923", 
-                "name": "Pratt0923"
-            }, 
-            {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/15881645?v=3", 
-                "contributions": 23, 
+                "contributions": 24, 
                 "link": "https://github.com/marshmalien", 
                 "name": "marshmalien"
+            }, 
+            {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/1026584?v=3", 
+                "contributions": 21, 
+                "link": "https://github.com/zph", 
+                "name": "zph"
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/9677598?v=3", 
                 "contributions": 16, 
                 "link": "https://github.com/dmjurg", 
                 "name": "dmjurg"
-            }, 
-            {
-                "avatar_url": "https://avatars3.githubusercontent.com/u/1026584?v=3", 
-                "contributions": 9, 
-                "link": "https://github.com/zph", 
-                "name": "zph"
             }, 
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/307685?v=3", 
@@ -480,11 +813,11 @@
         "languages": [
             [
                 "Ruby", 
-                96490
+                100549
             ], 
             [
                 "HTML", 
-                28720
+                29338
             ], 
             [
                 "CSS", 
@@ -499,23 +832,22 @@
         "long_description": "Double H Ranch is a nonprofit that provides specialized programs and year-round support for children and their families dealing with life-threatening illnesses. All programs are free of charge, and capture the magic of the Adirondacks of upstate New York. It is one of the most uplifting places you could ever visit.  Former counselors, staff, volunteers, and campers currently have limited options for engagement with Double H, so we\u2019ll build 'Orchard,' a system through which folks can engage and build community with and amongst people who are no longer at camp. Orchard will import a camp-compiled dataset, send an email (inviting people to create an account, adjust privacy settings, verify their info), and provides a searchable directory and taggable/commentable photo gallery. Camp admins will have the ability to author and schedule automated emails to users. Later, we\u2019d like Orchard to more directly interface with a few of their existing systems (Facebook, Google calendar, Raiser's Edge, MailChimp, custom systems, etc).", 
         "main_language": "Ruby", 
         "name": "Double H Ranch", 
-        "open_issues": 1, 
+        "open_issues": 6, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:06:05Z", 
+        "pushed_at": "2017-05-26T19:55:22Z", 
         "short_name": "doublehranch", 
-        "size": 3223, 
+        "size": 3215, 
         "slack": "#double_h_ranch", 
-        "updated_at": "2017-05-18T23:05:28Z", 
-        "watchers": 0
+        "updated_at": "2017-05-22T20:26:37Z", 
+        "watchers": 1
     }, 
     {
         "activity": [
-            0, 
             0, 
             0, 
             0, 
@@ -566,7 +898,8 @@
             0, 
             0, 
             1, 
-            50
+            51, 
+            3
         ], 
         "ci": {
             "codeclimate": false, 
@@ -619,16 +952,16 @@
                 "name": "tmobaird"
             }, 
             {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/517302?v=3", 
+                "contributions": 9, 
+                "link": "https://github.com/robbkidd", 
+                "name": "robbkidd"
+            }, 
+            {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/6355854?v=3", 
                 "contributions": 8, 
                 "link": "https://github.com/teixeirak", 
                 "name": "teixeirak"
-            }, 
-            {
-                "avatar_url": "https://avatars3.githubusercontent.com/u/517302?v=3", 
-                "contributions": 6, 
-                "link": "https://github.com/robbkidd", 
-                "name": "robbkidd"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/547152?v=3", 
@@ -690,7 +1023,7 @@
         "languages": [
             [
                 "Ruby", 
-                184403
+                135925
             ], 
             [
                 "HTML", 
@@ -724,7 +1057,7 @@
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:02:49Z", 
+        "pushed_at": "2017-05-29T18:33:43Z", 
         "short_name": "ghgvc", 
         "size": 1162859, 
         "slack": "#climate", 
@@ -733,7 +1066,6 @@
     }, 
     {
         "activity": [
-            0, 
             0, 
             0, 
             0, 
@@ -784,7 +1116,8 @@
             0, 
             0, 
             0, 
-            39
+            90, 
+            48
         ], 
         "ci": {
             "codeclimate": false, 
@@ -796,7 +1129,7 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/108205?v=3", 
-                "contributions": 29, 
+                "contributions": 30, 
                 "link": "https://github.com/jgaskins", 
                 "name": "jgaskins"
             }, 
@@ -808,7 +1141,7 @@
             }, 
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/934707?v=3", 
-                "contributions": 22, 
+                "contributions": 24, 
                 "link": "https://github.com/scooter-dangle", 
                 "name": "scooter-dangle"
             }, 
@@ -820,7 +1153,7 @@
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/10904005?v=3", 
-                "contributions": 13, 
+                "contributions": 15, 
                 "link": "https://github.com/pollygee", 
                 "name": "pollygee"
             }, 
@@ -832,9 +1165,15 @@
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/14868930?v=3", 
-                "contributions": 5, 
+                "contributions": 6, 
                 "link": "https://github.com/ajohnson052", 
                 "name": "ajohnson052"
+            }, 
+            {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/5437070?v=3", 
+                "contributions": 3, 
+                "link": "https://github.com/brianhays", 
+                "name": "brianhays"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/667909?v=3", 
@@ -861,23 +1200,317 @@
                 "name": "megbutler"
             }
         ], 
-        "contributors_count": 11, 
+        "contributors_count": 12, 
         "created_at": "2017-03-01T14:19:28Z", 
         "default_branch": "master", 
         "description": null, 
-        "forks": 2, 
-        "help_wanted": [], 
+        "forks": 3, 
+        "help_wanted": [
+            {
+                "assignee": null, 
+                "body": "County options should be limited to:\nPG\nHO\nAA\n\nCurrently in the UI they are listed as Howard, Anne Arundle, but the db is seeded with above, so no county shows up.", 
+                "comments": 0, 
+                "created_at": "2017-05-27T15:32:33Z", 
+                "issue": "Counties should be restricted", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/80", 
+                "labels": [
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-27T15:32:51Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "Currently when you finish a checkin, it shows the time of the checkin.  I would prefer for that name to be removed from the list.  Or maybe it can be pushed to the bottom and greyed out or something visually to clear the clutter of those who have already been checked in.", 
+                "comments": 0, 
+                "created_at": "2017-05-27T15:07:58Z", 
+                "issue": "Remove an appointment from the dashboard after checkin", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/78", 
+                "labels": [
+                    {
+                        "color": "fbca04", 
+                        "default": false, 
+                        "id": 605106409, 
+                        "name": "discussion", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/discussion"
+                    }, 
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-27T15:07:59Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": null, 
+                "comments": 1, 
+                "created_at": "2017-05-21T15:29:23Z", 
+                "issue": "Need filter for county in summary to show highlights", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/73", 
+                "labels": [
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-27T15:05:30Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": null, 
+                "comments": 1, 
+                "created_at": "2017-05-21T15:27:55Z", 
+                "issue": "Family size on dashboard summary doesn't match total of adults and children", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/72", 
+                "labels": [
+                    {
+                        "color": "ee0701", 
+                        "default": true, 
+                        "id": 550702107, 
+                        "name": "bug", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/bug"
+                    }, 
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-27T15:36:00Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "When on dashboard, if I create a note and save, then I can not click on that note again without refreshing the page.  I want to be able to click on the note and not have to refresh the page.", 
+                "comments": 0, 
+                "created_at": "2017-05-21T14:51:31Z", 
+                "issue": "Should be able to click on Notes after Creating them", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/68", 
+                "labels": [
+                    {
+                        "color": "ee0701", 
+                        "default": true, 
+                        "id": 550702107, 
+                        "name": "bug", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/bug"
+                    }, 
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-22T14:46:04Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "When a user clicks `save` after creating a note on an appointment, the modal window should close.", 
+                "comments": 0, 
+                "created_at": "2017-05-21T14:49:56Z", 
+                "issue": "Close modal window on Notes when saving", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/67", 
+                "labels": [
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-22T14:46:12Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": "When doing check-in, we need an alert window to show when we don't have a date or if the date is past for a client is usda_certified on the client is `true`.", 
+                "comments": 0, 
+                "created_at": "2017-05-20T15:24:25Z", 
+                "issue": "Send alert if client is out of usda certification", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/45", 
+                "labels": [
+                    {
+                        "color": "005de0", 
+                        "default": false, 
+                        "id": 605114523, 
+                        "name": "front-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/front-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-22T14:47:35Z"
+            }, 
+            {
+                "assignee": null, 
+                "body": null, 
+                "comments": 1, 
+                "created_at": "2017-05-15T02:11:33Z", 
+                "issue": "Beef up clients endpoints", 
+                "issue_url": "https://github.com/rubyforgood/pantry_scheduler/issues/17", 
+                "labels": [
+                    {
+                        "color": "006b75", 
+                        "default": false, 
+                        "id": 605106608, 
+                        "name": "back-end", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/back-end"
+                    }, 
+                    {
+                        "color": "128A0C", 
+                        "default": true, 
+                        "id": 550702110, 
+                        "name": "help wanted", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/help%20wanted"
+                    }, 
+                    {
+                        "color": "ededed", 
+                        "default": false, 
+                        "id": 605110033, 
+                        "name": "ready", 
+                        "url": "https://api.github.com/repos/rubyforgood/pantry_scheduler/labels/ready"
+                    }
+                ], 
+                "project": "Elizabeth House Pantry Scheduler", 
+                "project_url": "https://github.com/rubyforgood/pantry_scheduler", 
+                "updated_at": "2017-05-22T14:47:13Z"
+            }
+        ], 
         "homepage": null, 
         "html_url": "https://github.com/rubyforgood/pantry_scheduler", 
         "id": 83562594, 
         "languages": [
             [
                 "Ruby", 
-                74860
+                76683
             ], 
             [
                 "JavaScript", 
-                33319
+                34530
             ], 
             [
                 "HTML", 
@@ -898,16 +1531,16 @@
         "long_description": "Elizabeth House is an all volunteer run Food Pantry and Soup Kitchen in Laurel, MD.  We have over 300 volunteers each year and serve approximately 45 people for dinner each evening, and help around 15 families per week with groceries.  Our app is to help the volunteers create appointments, check clients in and create aggregated data for government reporting.", 
         "main_language": "Ruby", 
         "name": "Elizabeth House Pantry Scheduler", 
-        "open_issues": 17, 
+        "open_issues": 15, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:06:32Z", 
+        "pushed_at": "2017-05-27T16:25:01Z", 
         "short_name": "pantry_scheduler", 
-        "size": 241, 
+        "size": 223, 
         "slack": "#pantry", 
         "updated_at": "2017-05-21T02:21:08Z", 
         "watchers": 2
@@ -961,11 +1594,11 @@
             0, 
             0, 
             0, 
-            0, 
-            0, 
             1, 
             0, 
-            79
+            0, 
+            116, 
+            1
         ], 
         "ci": {
             "codeclimate": false, 
@@ -977,13 +1610,13 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/3877651?v=3", 
-                "contributions": 25, 
+                "contributions": 32, 
                 "link": "https://github.com/bjmllr", 
                 "name": "bjmllr"
             }, 
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/4869510?v=3", 
-                "contributions": 22, 
+                "contributions": 23, 
                 "link": "https://github.com/dushi27", 
                 "name": "dushi27"
             }, 
@@ -1042,11 +1675,11 @@
         "languages": [
             [
                 "Ruby", 
-                70372
+                71223
             ], 
             [
                 "HTML", 
-                13880
+                14462
             ], 
             [
                 "CSS", 
@@ -1071,19 +1704,19 @@
         "long_description": "Here for Reentry is focused around creating a toolset for previously incarcerated 'returning citizens' to connect socially with one another, learn important information about quality social services, and organize politically to advocate for issues relevant to their lives and their communities. These are our neighbors, our friends and our family.", 
         "main_language": "Ruby", 
         "name": "Here 4 Reentry's Word of Mouth", 
-        "open_issues": 7, 
+        "open_issues": 8, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:07:03Z", 
+        "pushed_at": "2017-05-29T05:09:58Z", 
         "short_name": "reentry", 
-        "size": 13068, 
+        "size": 13126, 
         "slack": "#reentry", 
-        "updated_at": "2017-05-20T13:27:01Z", 
-        "watchers": 1
+        "updated_at": "2017-05-25T16:04:27Z", 
+        "watchers": 4
     }, 
     {
         "activity": [
@@ -1137,8 +1770,8 @@
             0, 
             0, 
             0, 
-            0, 
-            45
+            121, 
+            47
         ], 
         "ci": {
             "codeclimate": false, 
@@ -1150,25 +1783,25 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/7953779?v=3", 
-                "contributions": 60, 
+                "contributions": 67, 
                 "link": "https://github.com/flemdizzle", 
                 "name": "flemdizzle"
             }, 
             {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/13973020?v=3", 
-                "contributions": 36, 
-                "link": "https://github.com/micahbales", 
-                "name": "micahbales"
-            }, 
-            {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/10112?v=3", 
-                "contributions": 36, 
+                "contributions": 44, 
                 "link": "https://github.com/elight", 
                 "name": "elight"
             }, 
             {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/13973020?v=3", 
+                "contributions": 40, 
+                "link": "https://github.com/micahbales", 
+                "name": "micahbales"
+            }, 
+            {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/9879078?v=3", 
-                "contributions": 10, 
+                "contributions": 11, 
                 "link": "https://github.com/Brennaleker", 
                 "name": "Brennaleker"
             }, 
@@ -1191,15 +1824,15 @@
         "languages": [
             [
                 "Ruby", 
-                72250
+                83782
             ], 
             [
                 "HTML", 
-                17843
+                21365
             ], 
             [
                 "CSS", 
-                1973
+                2751
             ], 
             [
                 "JavaScript", 
@@ -1216,16 +1849,16 @@
         "long_description": "Almost half of school-age homeless children have emotional problems like anxiety and depression \u2026 They also experience four times the rate of developmental delays and double the learning disabilities, and they are twice as likely to be suspended from school or repeat a grade as other poor children. Research has shown that the simple act of playing makes a remarkable difference in children\u2019s cognitive, physical, and emotional well-being both at home and at school. We'll be helping the playtime project build tools to help facilitate gifts of toys.", 
         "main_language": "Ruby", 
         "name": "Homeless Children's Playtime Project", 
-        "open_issues": 1, 
+        "open_issues": 2, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:00:09Z", 
+        "pushed_at": "2017-05-29T15:36:25Z", 
         "short_name": "playtime", 
-        "size": 556, 
+        "size": 567, 
         "slack": "#playtime", 
         "updated_at": "2017-05-19T00:25:00Z", 
         "watchers": 0
@@ -1282,8 +1915,8 @@
             0, 
             0, 
             0, 
-            0, 
-            25
+            83, 
+            41
         ], 
         "ci": {
             "codeclimate": false, 
@@ -1295,7 +1928,7 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/731198?v=3", 
-                "contributions": 32, 
+                "contributions": 47, 
                 "link": "https://github.com/osondoar", 
                 "name": "osondoar"
             }, 
@@ -1312,19 +1945,31 @@
                 "name": "SuperJones"
             }, 
             {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/11203264?v=3", 
+                "contributions": 7, 
+                "link": "https://github.com/malissaromero", 
+                "name": "malissaromero"
+            }, 
+            {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/9599485?v=3", 
+                "contributions": 6, 
+                "link": "https://github.com/AliTopal89", 
+                "name": "AliTopal89"
+            }, 
+            {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/13278725?v=3", 
                 "contributions": 3, 
                 "link": "https://github.com/almightyboz", 
                 "name": "almightyboz"
             }, 
             {
-                "avatar_url": "https://avatars3.githubusercontent.com/u/9599485?v=3", 
-                "contributions": 2, 
-                "link": "https://github.com/AliTopal89", 
-                "name": "AliTopal89"
+                "avatar_url": "https://avatars2.githubusercontent.com/u/667909?v=3", 
+                "contributions": 1, 
+                "link": "https://github.com/seanmarcia", 
+                "name": "seanmarcia"
             }
         ], 
-        "contributors_count": 5, 
+        "contributors_count": 7, 
         "created_at": "2017-04-30T13:27:05Z", 
         "default_branch": "master", 
         "description": "Justice for Juniors Website", 
@@ -1336,39 +1981,45 @@
         "languages": [
             [
                 "JavaScript", 
-                178815
-            ], 
-            [
-                "Ruby", 
-                91555
+                356257
             ], 
             [
                 "HTML", 
-                90745
+                123929
+            ], 
+            [
+                "Ruby", 
+                94393
             ], 
             [
                 "CSS", 
-                45191
+                57356
             ], 
             [
                 "CoffeeScript", 
                 30
             ]
         ], 
-        "license": null, 
+        "license": {
+            "featured": true, 
+            "key": "mit", 
+            "name": "MIT License", 
+            "spdx_id": "MIT", 
+            "url": "https://api.github.com/licenses/mit"
+        }, 
         "long_description": "Justice for Juniors, sponsored by the Luther Rice Chapel, is dedicated to addressing juvenile recidivism in the District of Columbia by offering mentoring and tutorial visitation services to juveniles returning to the community in subjects such as ethics, education, and faith. We hope to lay a foundation for disadvantaged youth to gain the skills, hope, and sense of community needed to live a life without crime. We partner with local universities and other volunteer groups to visit with incarcerated youth at various stages of their unfortunate positions in the system from YSC (the youth jail), to those living in one of the city's 10 shelter-homes (unlocked facilities where the children are allowed to leave to attend school, other activities and home visits on the weekends) to those in diversion programs (avoiding being charged for a crime by satisfying various things of which Justice for Juniors is part). The program also involves an advocacy component, hosting a Juvenile Justice Forum annually where representatives from various organizations, such as the US DOJ, prosecutors, police, NAACP representatives, child rights advocates, are invited to discuss the year's topic. There are on average 1,600 juveniles in the DC justice system at any given time. Over the past 6 years Justice for Juniors has worked diligently to reduce that number.", 
         "main_language": "JavaScript", 
         "name": "Justice for Juniors", 
-        "open_issues": 10, 
+        "open_issues": 9, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:03:40Z", 
+        "pushed_at": "2017-05-26T20:03:50Z", 
         "short_name": "justice", 
-        "size": 12870, 
+        "size": 12888, 
         "slack": "#justiceforjuniors", 
         "updated_at": "2017-05-21T15:07:16Z", 
         "watchers": 2
@@ -1377,10 +2028,10 @@
         "activity": [
             0, 
             0, 
-            0, 
-            35, 
-            156, 
+            133, 
+            58, 
             1, 
+            0, 
             0, 
             0, 
             0, 
@@ -1586,10 +2237,10 @@
             0, 
             0, 
             0, 
-            0, 
             2, 
             0, 
-            282
+            386, 
+            33
         ], 
         "ci": {
             "codeclimate": false, 
@@ -1601,15 +2252,27 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/57926?v=3", 
-                "contributions": 71, 
+                "contributions": 80, 
                 "link": "https://github.com/bokmann", 
                 "name": "bokmann"
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/3754?v=3", 
-                "contributions": 51, 
+                "contributions": 71, 
                 "link": "https://github.com/cflipse", 
                 "name": "cflipse"
+            }, 
+            {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/1752602?v=3", 
+                "contributions": 63, 
+                "link": "https://github.com/yarmiganosca", 
+                "name": "yarmiganosca"
+            }, 
+            {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/319081?v=3", 
+                "contributions": 47, 
+                "link": "https://github.com/danielpclark", 
+                "name": "danielpclark"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/205614?v=3", 
@@ -1618,20 +2281,8 @@
                 "name": "bennacer860"
             }, 
             {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/1752602?v=3", 
-                "contributions": 43, 
-                "link": "https://github.com/yarmiganosca", 
-                "name": "yarmiganosca"
-            }, 
-            {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/319081?v=3", 
-                "contributions": 30, 
-                "link": "https://github.com/danielpclark", 
-                "name": "danielpclark"
-            }, 
-            {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/11240912?v=3", 
-                "contributions": 20, 
+                "contributions": 27, 
                 "link": "https://github.com/wburns84", 
                 "name": "wburns84"
             }, 
@@ -1666,11 +2317,11 @@
         "languages": [
             [
                 "Ruby", 
-                113195
+                127116
             ], 
             [
                 "HTML", 
-                16701
+                18924
             ], 
             [
                 "JavaScript", 
@@ -1691,19 +2342,19 @@
         "long_description": "If we want to get more people interested in computer science one of the best ways to achieve that is by exposing them to it while they are kids. This is what the great people at the Loudoun Computer Science Initative are doing; engaging their communities and kids with computer science. We'll be helping them build an open source version of a closed source tool for high school (and other) coding challenges.", 
         "main_language": "Ruby", 
         "name": "Loudon Codes", 
-        "open_issues": 14, 
+        "open_issues": 18, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:05:30Z", 
+        "pushed_at": "2017-05-29T16:10:55Z", 
         "short_name": "loudoun_codes", 
-        "size": 7424, 
+        "size": 7502, 
         "slack": "#lcsi", 
-        "updated_at": "2017-05-19T18:22:17Z", 
-        "watchers": 0
+        "updated_at": "2017-05-26T08:27:56Z", 
+        "watchers": 3
     }, 
     {
         "activity": [
@@ -1750,15 +2401,15 @@
             0, 
             0, 
             0, 
-            0, 
             10, 
             6, 
-            0, 
-            15, 
+            2, 
+            13, 
             1, 
-            25, 
-            53, 
-            19
+            27, 
+            51, 
+            34, 
+            24
         ], 
         "ci": {
             "codeclimate": false, 
@@ -1782,33 +2433,33 @@
             }, 
             {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/8835055?v=3", 
-                "contributions": 25, 
+                "contributions": 26, 
                 "link": "https://github.com/jjhampton", 
                 "name": "jjhampton"
             }, 
             {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/3149916?v=3", 
+                "contributions": 21, 
+                "link": "https://github.com/Brantron", 
+                "name": "Brantron"
+            }, 
+            {
                 "avatar_url": "https://avatars3.githubusercontent.com/u/3501927?v=3", 
-                "contributions": 23, 
+                "contributions": 20, 
                 "link": "https://github.com/AEgan", 
                 "name": "AEgan"
             }, 
             {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/3149916?v=3", 
-                "contributions": 15, 
-                "link": "https://github.com/Brantron", 
-                "name": "Brantron"
+                "avatar_url": "https://avatars1.githubusercontent.com/u/12724433?v=3", 
+                "contributions": 11, 
+                "link": "https://github.com/mkmckenzie", 
+                "name": "mkmckenzie"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/15932239?v=3", 
                 "contributions": 5, 
                 "link": "https://github.com/Cooperbuilt", 
                 "name": "Cooperbuilt"
-            }, 
-            {
-                "avatar_url": "https://avatars1.githubusercontent.com/u/12724433?v=3", 
-                "contributions": 4, 
-                "link": "https://github.com/mkmckenzie", 
-                "name": "mkmckenzie"
             }, 
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/14359956?v=3", 
@@ -1823,13 +2474,31 @@
                 "name": "Wimsy113"
             }, 
             {
+                "avatar_url": "https://avatars3.githubusercontent.com/u/8934698?v=3", 
+                "contributions": 2, 
+                "link": "https://github.com/tskuse", 
+                "name": "tskuse"
+            }, 
+            {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/9014849?v=3", 
+                "contributions": 2, 
+                "link": "https://github.com/luminousbeam", 
+                "name": "luminousbeam"
+            }, 
+            {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/334550?v=3", 
                 "contributions": 1, 
                 "link": "https://github.com/rickr", 
                 "name": "rickr"
+            }, 
+            {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/667909?v=3", 
+                "contributions": 1, 
+                "link": "https://github.com/seanmarcia", 
+                "name": "seanmarcia"
             }
         ], 
-        "contributors_count": 10, 
+        "contributors_count": 13, 
         "created_at": "2017-04-30T13:49:12Z", 
         "default_branch": "master", 
         "description": null, 
@@ -1841,11 +2510,11 @@
         "languages": [
             [
                 "JavaScript", 
-                121944
+                132138
             ], 
             [
                 "CSS", 
-                23246
+                26144
             ], 
             [
                 "HTML", 
@@ -1860,20 +2529,26 @@
                 213
             ]
         ], 
-        "license": null, 
+        "license": {
+            "featured": true, 
+            "key": "mit", 
+            "name": "MIT License", 
+            "spdx_id": "MIT", 
+            "url": "https://api.github.com/licenses/mit"
+        }, 
         "long_description": "Operation Code helps the military community learn software development, enter the tech industry, and code the future. Through mentoring, scholarships, and the open source community we get past and present Army, Navy, Marines, Air Force, and Coast Guard service members, veterans and military spouses into programming and out into the work force.", 
         "main_language": "JavaScript", 
         "name": "Operation Code Front End", 
-        "open_issues": 14, 
+        "open_issues": 12, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T15:54:17Z", 
+        "pushed_at": "2017-05-29T14:25:34Z", 
         "short_name": "operationcode_frontend", 
-        "size": 3480, 
+        "size": 3537, 
         "slack": "#operation_code", 
         "updated_at": "2017-05-18T18:46:34Z", 
         "watchers": 0
@@ -1923,15 +2598,15 @@
             0, 
             0, 
             0, 
-            0, 
-            0, 
             2, 
-            3, 
-            15, 
-            5, 
             0, 
+            11, 
+            7, 
             5, 
-            3
+            3, 
+            4, 
+            41, 
+            1
         ], 
         "ci": {
             "codeclimate": false, 
@@ -1948,16 +2623,16 @@
                 "name": "cmar"
             }, 
             {
+                "avatar_url": "https://avatars2.githubusercontent.com/u/3149916?v=3", 
+                "contributions": 6, 
+                "link": "https://github.com/Brantron", 
+                "name": "Brantron"
+            }, 
+            {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/334550?v=3", 
                 "contributions": 5, 
                 "link": "https://github.com/rickr", 
                 "name": "rickr"
-            }, 
-            {
-                "avatar_url": "https://avatars2.githubusercontent.com/u/3149916?v=3", 
-                "contributions": 4, 
-                "link": "https://github.com/Brantron", 
-                "name": "Brantron"
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/9014849?v=3", 
@@ -1990,7 +2665,7 @@
         "languages": [
             [
                 "Ruby", 
-                78774
+                78937
             ], 
             [
                 "Shell", 
@@ -2009,16 +2684,16 @@
         "long_description": "See Operation Code Front End", 
         "main_language": "Ruby", 
         "name": "Operation Code Back End", 
-        "open_issues": 8, 
+        "open_issues": 9, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T15:35:46Z", 
+        "pushed_at": "2017-05-29T01:10:12Z", 
         "short_name": "operationcode_backend", 
-        "size": 175, 
+        "size": 180, 
         "slack": "#operation_code", 
         "updated_at": "2017-05-18T13:05:33Z", 
         "watchers": 0
@@ -2075,8 +2750,8 @@
             0, 
             0, 
             0, 
-            0, 
-            57
+            114, 
+            0
         ], 
         "ci": {
             "codeclimate": false, 
@@ -2088,13 +2763,13 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/243989?v=3", 
-                "contributions": 38, 
+                "contributions": 46, 
                 "link": "https://github.com/rposborne", 
                 "name": "rposborne"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/273653?v=3", 
-                "contributions": 34, 
+                "contributions": 41, 
                 "link": "https://github.com/caseywatts", 
                 "name": "caseywatts"
             }, 
@@ -2106,7 +2781,7 @@
             }, 
             {
                 "avatar_url": "https://avatars0.githubusercontent.com/u/302044?v=3", 
-                "contributions": 12, 
+                "contributions": 13, 
                 "link": "https://github.com/bhaibel", 
                 "name": "bhaibel"
             }
@@ -2127,27 +2802,27 @@
             ], 
             [
                 "Vue", 
-                12246
+                12478
             ], 
             [
                 "HTML", 
-                654
+                715
             ]
         ], 
         "license": null, 
         "long_description": "Helping scientists conserve red pandas, elephants, and other animals!", 
         "main_language": "JavaScript", 
         "name": "Save the Animals Front End", 
-        "open_issues": 0, 
+        "open_issues": 1, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T16:05:36Z", 
+        "pushed_at": "2017-05-26T19:57:04Z", 
         "short_name": "offline_pandas", 
-        "size": 348, 
+        "size": 343, 
         "slack": "#save_the_animals", 
         "updated_at": "2017-05-21T03:06:00Z", 
         "watchers": 1
@@ -2204,8 +2879,8 @@
             0, 
             0, 
             0, 
-            0, 
-            42
+            78, 
+            10
         ], 
         "ci": {
             "codeclimate": false, 
@@ -2217,15 +2892,21 @@
         "contributors": [
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/243989?v=3", 
-                "contributions": 40, 
+                "contributions": 43, 
                 "link": "https://github.com/rposborne", 
                 "name": "rposborne"
             }, 
             {
                 "avatar_url": "https://avatars2.githubusercontent.com/u/725?v=3", 
-                "contributions": 13, 
+                "contributions": 14, 
                 "link": "https://github.com/marc", 
                 "name": "marc"
+            }, 
+            {
+                "avatar_url": "https://avatars0.githubusercontent.com/u/11097983?v=3", 
+                "contributions": 13, 
+                "link": "https://github.com/kwokster10", 
+                "name": "kwokster10"
             }, 
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/395621?v=3", 
@@ -2234,10 +2915,10 @@
                 "name": "alindeman"
             }, 
             {
-                "avatar_url": "https://avatars0.githubusercontent.com/u/11097983?v=3", 
-                "contributions": 9, 
-                "link": "https://github.com/kwokster10", 
-                "name": "kwokster10"
+                "avatar_url": "https://avatars0.githubusercontent.com/u/12529630?v=3", 
+                "contributions": 3, 
+                "link": "https://github.com/willmurphyscode", 
+                "name": "willmurphyscode"
             }, 
             {
                 "avatar_url": "https://avatars1.githubusercontent.com/u/510899?v=3", 
@@ -2246,11 +2927,11 @@
                 "name": "lambcr"
             }
         ], 
-        "contributors_count": 5, 
+        "contributors_count": 6, 
         "created_at": "2017-05-18T23:49:15Z", 
         "default_branch": "master", 
         "description": null, 
-        "forks": 1, 
+        "forks": 2, 
         "help_wanted": [], 
         "homepage": null, 
         "html_url": "https://github.com/rubyforgood/save_the_animals_api", 
@@ -2258,11 +2939,11 @@
         "languages": [
             [
                 "Ruby", 
-                81428
+                82425
             ], 
             [
                 "HTML", 
-                9813
+                10232
             ], 
             [
                 "JavaScript", 
@@ -2281,16 +2962,16 @@
         "long_description": "See Save the Animals Front End", 
         "main_language": "Ruby", 
         "name": "Save the Animals Back End", 
-        "open_issues": 0, 
+        "open_issues": 6, 
         "owner": {
             "avatar": "https://avatars2.githubusercontent.com/u/11573263?v=3", 
             "name": "rubyforgood", 
             "type": "Organization", 
             "url": "https://github.com/rubyforgood"
         }, 
-        "pushed_at": "2017-05-21T15:32:44Z", 
+        "pushed_at": "2017-05-27T01:11:10Z", 
         "short_name": "save_the_animals_api", 
-        "size": 169, 
+        "size": 182, 
         "slack": "#save_the_animals", 
         "updated_at": "2017-05-21T00:45:24Z", 
         "watchers": 2
@@ -2347,8 +3028,8 @@
             0, 
             0, 
             0, 
-            0, 
-            61
+            69, 
+            0
         ], 
         "ci": {
             "codeclimate": false, 
