@@ -1,6 +1,5 @@
 #! /bin/sh
 
-cd /path/to/repo
 git pull
 pip install requirements.txt
 python scripts/generate_json.py
